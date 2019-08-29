@@ -2,7 +2,9 @@ Hi!
 
 Welcome to the Fall 2019 section of Creative Coding at [MICA](https://mica.edu) lead by [Adam Bachman](https://github.com/abachman).
 
-You can find the current syllabus at https://github.com/abachman/creative-coding-fall-2019/blob/master/syllabus.md and a pretty, PDF version at https://github.com/abachman/creative-coding-fall-2019/blob/master/Bachman_Adam_CreativeCoding.pdf.
+The syllabus is here: https://github.com/abachman/creative-coding-fall-2019/blob/master/syllabus.md
+
+The .md version is authoritative, but there's also a nice PDF version here: https://github.com/abachman/creative-coding-fall-2019/blob/master/Bachman_Adam_CreativeCoding.pdf.
 
 The introductory survey is here: https://forms.gle/n76gsg4yNpo3yKvX8
 
