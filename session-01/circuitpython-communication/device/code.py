@@ -19,17 +19,28 @@ def readsmooth():
 
 count = 0
 blink = False
+blue = (0, 0, 10)
+COLOR_CHANGE = False
 while True:
     count += 1
 
     x, y, z = readsmooth()
     print("%f %f %f" % (x, y, z))
 
-    if blink:
-        cpx.pixels.fill((0, 0, 0))
-        blink = False
+    if COLOR_CHANGE:
+        if abs(y) > 5:
+            blue = (100, 0, 0)
+        else:
+            blue = (25, 0, 100)
+        cpx.pixels.fill(blue)
+    else:
 
-    if count % 300 == 0:
-        cpx.pixels[0] = (0, 0, 10)
-        blink = True
+        if count % 120 == 0:
+            if blink:
+                cpx.pixels.fill((0, 0, 0))
+                blink = False
+            else:
+                cpx.pixels.fill(blue)
+                blink = True
+
 

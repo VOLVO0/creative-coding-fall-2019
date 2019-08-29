@@ -4,7 +4,7 @@ int lf = 10;    // Linefeed in ASCII
 Serial myPort;  // The serial port
 
 void setup() {
-  size(600, 600, P3D);
+  size(800, 600, P3D);
   
   // List all the available serial ports
   printArray(Serial.list());
@@ -17,14 +17,16 @@ String inString;
 float accel[] = {0, 0, 0};
 float hist[][];
 
+color lavender = color(100, 100, 200);
+color alarm = color(255, 0, 0);
+
 void draw() {
   while (myPort.available() > 0) {
     String inString = myPort.readStringUntil(lf);
     if (inString != null) {
-      // print(inString);
       float vals[] = float(split(inString, ' '));   
       if (vals.length == 3) {
-        println("x: ", vals[0], "\ty:", vals[1], "\tz:", vals[2]);
+        // println("x: ", vals[0], "\ty:", vals[1], "\tz:", vals[2]);
         // copy temporary values into accel values
         accel[0] = vals[0];
         accel[1] = vals[1];
@@ -36,12 +38,19 @@ void draw() {
   }
   
   background(0);
-  fill(100, 100, 200);
+  fill(lerpColor(lavender, alarm, constrain(abs(accel[1]), 0, 10) / 10.0));
   noStroke();
   lights();
   
-  translate(width/2, height/2);
-  rotateX(map(accel[0], -10, 10, -PI, PI));
-  rotateY(map(accel[1], -10, 10, -PI, PI));
-  box(300);
+  int steps = 1;
+  float offset = 1 / float(steps + 1) * width;
+  for (int i=0; i < steps; i++) {
+    pushMatrix();
+    translate((i + 1) * offset, height/2);
+    rotateX(map(accel[0], -10, 10, -PI, PI));
+    rotateY(map(accel[1], -10, 10, -PI, PI));
+    box(width * 0.2);
+    popMatrix();
+  }
+  
 }
