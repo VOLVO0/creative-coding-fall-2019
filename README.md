@@ -6,7 +6,9 @@ You can find the current syllabus at https://github.com/abachman/creative-coding
 
 The introductory survey is here: https://forms.gle/n76gsg4yNpo3yKvX8
 
-This site can also be reached via: bit.ly/micacode2019
+The class Google Drive is here: https://drive.google.com/open?id=1Yq0oKRxbXknLG9msfFEMMADDrZdJFfMy
+
+This site can also be reached via: https://bit.ly/micacode2019
 
 We meet at 4pm on Thursdays in the Dolphin design center, room 240 on the second floor.
 
