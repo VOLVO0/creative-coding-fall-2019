@@ -20,4 +20,5 @@ void draw() {
       );
   }
   saveFrame(Long.toString(new Date().getTime()) + ".png");
+  exit();
 }
