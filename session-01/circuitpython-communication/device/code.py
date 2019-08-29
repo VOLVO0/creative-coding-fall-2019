@@ -34,7 +34,6 @@ while True:
             blue = (25, 0, 100)
         cpx.pixels.fill(blue)
     else:
-
         if count % 120 == 0:
             if blink:
                 cpx.pixels.fill((0, 0, 0))
