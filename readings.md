@@ -34,29 +34,64 @@
 
 ## Session 2 - 2019-09-05
 
-## Session 3 - 2019-09-05
+### Reading
 
-## Session 4 - 2019-09-05
+[Software & Drawing](https://artport.whitney.org/commissions/softwarestructures/text.html) by Casey Reas
 
-## Session 5 - 2019-09-05
 
-## Session 6 - 2019-09-05
+### Services
 
-## Session 7 - 2019-09-05
+[OpenProcessing.org](https://www.openprocessing.org/home/join)
 
-## Session 8 - 2019-09-05
 
-## Session 9 - 2019-09-05
+### Inspiration
 
-## Session 10 - 2019-09-05
+- [Jason Salavon](http://salavon.com/)
+- [Processing Paris](https://vimeo.com/23753834)
+- [Golan Levin](http://www.flong.com/)
+- [Lillian F. Schwartz](http://lillian.com/)
+- [Nooflat](http://www.nooflat.nu/) RIP Flash :(
+- [The Parable of the Polygons](https://ncase.me/polygons/)
+- [ReallySimpleSeeds_](https://vimeo.com/939779)
+- [Slime Daughter](http://slimedaughter.com/)
+- [Jared Tarbell](http://www.complexification.net/gallery/)
+- [Samia Halaby](https://www.youtube.com/watch?v=sDfIkXf3uzA)
+- [Silica-Esc](https://vimeo.com/10154340)
+- [takawo](https://www.openprocessing.org/user/6533)
 
-## Session 11 - 2019-09-05
 
-## Session 12 - 2019-09-05
+### Homework:
 
-## Session 13 - 2019-09-05
+*Research*: Reading
 
-## Session 14 - 2019-09-05
+*Assignment*: Making Shapes Move
 
-## Session 15 - 2019-09-05
+
+## Session 3 - 2019-09-12
+
+## Session 4 - 2019-09-19
+
+## Session 5 - 2019-09-26
+
+## Session 6 - 2019-10-03
+
+## Session 7 - 2019-10-10
+
+## Session 8 - 2019-10-17
+
+## Session 9 - 2019-10-24
+
+## Session 10 - 2019-10-31
+
+## Session 11 - 2019-11-07
+
+## Session 12 - 2019-11-14
+
+## Session 13 - 2019-11-21
+
+## THANKSGIVING - 2019-11-28
+
+## Session 14 - 2019-12-05
+
+## Session 15 - 2019-12-12
 
