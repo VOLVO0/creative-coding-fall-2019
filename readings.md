@@ -57,7 +57,8 @@
 - [Jared Tarbell](http://www.complexification.net/gallery/)
 - [Samia Halaby](https://www.youtube.com/watch?v=sDfIkXf3uzA)
 - [Silica-Esc](https://vimeo.com/10154340)
-- [takawo](https://www.openprocessing.org/user/6533)
+- [takawo on openprocessing.org](https://www.openprocessing.org/user/6533)
+- [Memo Atken and Jennifer Walshe - ULTRACHUNK](https://twitter.com/memotv/status/1062854014797299713)
 
 
 ### Homework:
