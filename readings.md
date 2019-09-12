@@ -32,6 +32,8 @@
 
 **Do:** 16 Shapes exercise
 
+
+
 ## Session 2 - 2019-09-05
 
 ### Reading
@@ -63,12 +65,45 @@
 
 ### Homework:
 
-*Research*: Reading
+**Research**: Readings
 
-*Assignment*: Making Shapes Move
+**Assignment**: Making Shapes Move
+
 
 
 ## Session 3 - 2019-09-12
+
+### Readings
+
+- [Sentences on Conceptual Art, Sol Lewitt](http://www.altx.com/vizarts/conceptual.html)
+- [43 Dodgy Statements on Computer Art, Brian Reffin Smith](http://www.interactivearchitecture.org/43-dodgy-statements-on-computer-art.html)
+- Extra Credit! *The Pattern on the Stone* W. Daniel Hillis (Intro & Ch. 3)
+
+
+### Inspiration
+
+- [Generative Filmmaking](https://www.vice.com/en_us/article/8qmkmb/creative-code-a-look-at-generative-filmmaking)
+- [Nancy Burson](http://nancyburson.com/)
+- [Lorna Barnshaw](https://www.behance.net/lornabarnshaw)
+- [LIA](http://www.liaworks.com/about/)
+- [Lauren McCarthy](http://lauren-mccarthy.com/)
+- [Amanda Ghassaei](http://www.amandaghassaei.com/about/)
+- [Casey Reas](http://reas.com/) (co-creator of Processing)
+- [Ben Fry](https://benfry.com/) (co-creator of Processing)
+- [Zach Lieberman](http://thesystemis.com/)
+- [Kyle McDonald](http://www.kylemcdonald.net/)
+- [Mitchell Whitelaw](http://mtchl.net/category/projects/)
+- [Nightmare Hellface Generator](https://www.vice.com/en_us/article/8x9nmz/nightmare-hellface-generator-is-cutting-edge-machine-learning) - [final process video](https://www.youtube.com/watch?v=pWNgq4f4jDg)
+- [Point Cloud](https://vimeo.com/42896836)
+- [growth rendering device - David Bowen](https://vimeo.com/20967793)
+
+### Homework
+
+**Research**: Readings
+
+**Assignment**: Rule Systems
+
+
 
 ## Session 4 - 2019-09-19
 
