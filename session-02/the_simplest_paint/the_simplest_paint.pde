@@ -1,14 +1,13 @@
+int fakeFrameCount = 10;
+
 void setup() {
   size(800, 800);
-  background(0);
 }
 
 void draw() {
+  ellipse(mouseX, mouseY, fakeFrameCount, fakeFrameCount);
+  fakeFrameCount = fakeFrameCount + 2;
   if (mousePressed) {
-    ellipse(mouseX, mouseY, 20, 20);
-  }
-  
-  if (keyPressed) {
-    background(0);
+    fakeFrameCount = 0;
   }
 }
