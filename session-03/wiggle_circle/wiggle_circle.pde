@@ -28,7 +28,7 @@ void setup() {
 
 void draw() {
   // background(0);
-  stroke(30, 20);
+  stroke(60, 20);
   noFill();
   move += 0.2;
   
