@@ -46,6 +46,7 @@ int x = 0;
 int dx = 1;
 
 void draw() {
+  background(0);
   text(x, width/2, height/2);
   if (x < 0 || x > width) {
     dx = dx * -1;
@@ -60,6 +61,7 @@ int x = 0;
 int MAX = 100;
 
 void draw() {
+  background(0);
   text(x, width/2, height/2);
   x = (x + 1) % MAX;
 }
