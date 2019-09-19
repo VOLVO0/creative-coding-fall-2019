@@ -4,14 +4,17 @@ void setup() {
 
 void draw() {
   background(51);
+  drawStar(mouseX, mouseY, 3.0, 5);
+  drawStar(mouseX + 120, mouseY, 2.5, 8);
+  drawStar(mouseX + 220, mouseY, 0.5, 75);
+}
 
-  float angle = TWO_PI / 5;
+void drawStar(float x, float y, float multiplier, float points) {
+  float angle = TWO_PI / points;
   float halfAngle = angle/2.0;
-  float radius1 = 30;
-  float radius2 = 70;
-  float x = width/2;
-  float y = height/2;
-
+  float radius1 = 30 * multiplier;
+  float radius2 = 70 * multiplier;
+ 
   beginShape(); 
   for (float a = 0; a < TWO_PI; a += angle) {
     float sx = x + cos(a) * radius2;
@@ -22,5 +25,4 @@ void draw() {
     vertex(sx, sy);
   }
   endShape(CLOSE); 
-  
 }

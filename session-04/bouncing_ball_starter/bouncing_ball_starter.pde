@@ -11,9 +11,9 @@ void setup() {
 void draw() {
   background(51);
   
-  fill(170);
-  stroke(255);
-  ellipse(x, y, 30, 30);
+  drawBall();
+  // moveBall();
+  // checkEdges();
   
   x += speedx;
   y += speedy;
@@ -24,4 +24,10 @@ void draw() {
   if (y > height || y < 0) {
     speedy = -speedy;
   }
+}
+
+void drawBall() {
+  fill(170);
+  stroke(255);
+  ellipse(x, y, 30, 30);
 }
