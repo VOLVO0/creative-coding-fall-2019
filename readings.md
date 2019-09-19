@@ -107,6 +107,22 @@
 
 ## Session 4 - 2019-09-19
 
+
+### Inspiration
+
+- [David Tinapple](http://davidtinapple.webflow.io/)
+- [Soundmachines](https://vimeo.com/35014340)
+- [Robot Readable World](https://vimeo.com/36239715)
+- [New Aesthetic Tumblr](https://new-aesthetic.tumblr.com/)
+- [Ole Kristensen](https://ole.kristensen.name/works/)
+- [Geometric Abstraction](https://blog.artsper.com/en/get-inspired/10-artists-explore-geometric-abstraction/)
+
+### Homework
+
+**Assignment**: Starting Project 1 (due October 10)
+
+
+
 ## Session 5 - 2019-09-26
 
 ## Session 6 - 2019-10-03
