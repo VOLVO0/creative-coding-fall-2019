@@ -16,7 +16,7 @@
 
 `==` - logical EQUALS (comparison)
 
-`=` - set value 
+`=` - set value
 
 `width`, `height` - current sketch width or height value
 
@@ -26,19 +26,60 @@
 
 Creating and setting variables:
 
-```
+```java
 float x;     // create without setting
 float x = 1; // create and set
-float x;
-x = 1;       // create and set later
+
+float x;     // create and set later...
+
+void setup() {
+  x = 1;     // ... like inside setup() or draw()
+}
 ```
 
 Incrementing a number:
 
-```
+```java
 x = x + 1; // long
 x += 1;    // medium
 x++;       // short (count by 1 only)
+```
+
+### Functions
+
+Creating a function:
+
+```java
+// returnType name(arguments) {
+// }
+
+void drawShape() {
+  rect(10, 10, 10, 10);
+}
+
+void drawShapeAtPlace(int x, int y) {
+  rect(x, y, 10, 10);
+}
+
+int rollDie() {
+  return 1 + int(random(6));
+}
+
+boolean flipCoin() {
+  return random() > 0.5;
+}
+```
+
+Using functions:
+
+```java
+void draw() {
+  int count = rollDie();
+
+  for (int x = 0; x < count; x++) {
+    drawShapeAtPlace(x * 40, 10);
+  }
+}
 ```
 
 ### Changing Numbers
