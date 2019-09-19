@@ -7,15 +7,13 @@ void setup() {
   b = new Ball[COUNT];
   
   startBouncing();
+  
+  colorMode(HSB, 360, 100, 100);
 }
 
 void startBouncing() {
   for (int n = 0; n < COUNT; n++) {
-    b[n] = new Ball();
-    b[n].speedx = random(-10, 10);
-    b[n].speedy = random(-10, 10);
-    b[n].x = mouseX;
-    b[n].y = mouseY;
+    b[n] = new Ball(random(360));
   }
 }
 
