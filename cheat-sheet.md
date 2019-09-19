@@ -14,6 +14,10 @@
 
 `||` - logical OR
 
+`==` - logical EQUALS (comparison)
+
+`=` - set value 
+
 `width`, `height` - current sketch width or height value
 
 `mouseX`, `mouseY` - current mouse position
