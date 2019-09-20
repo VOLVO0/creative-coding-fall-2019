@@ -15,8 +15,8 @@ class Ball {
   }
 
   void display() {
-    fill(c, 100, 100);
-    stroke(255);
+    fill(c, 40, 100);
+    // stroke(255);
     ellipse(x, y, 30, 30);
   }
 

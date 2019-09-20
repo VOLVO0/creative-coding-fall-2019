@@ -1,6 +1,6 @@
 
 Ball[] b;
-int COUNT = 50;
+int COUNT = 500;
 
 void setup() {
   size(640, 480);
