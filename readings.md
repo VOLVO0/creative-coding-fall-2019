@@ -73,6 +73,8 @@
 
 ## Session 3 - 2019-09-12
 
+
+
 ### Readings
 
 - [Sentences on Conceptual Art, Sol Lewitt](http://www.altx.com/vizarts/conceptual.html)
@@ -107,6 +109,7 @@
 
 ## Session 4 - 2019-09-19
 
+Functions and Classes
 
 ### Inspiration
 
@@ -124,6 +127,26 @@
 
 
 ## Session 5 - 2019-09-26
+
+Libraries: Computer Vision
+
+
+### Inspiration
+
+- [Cloudflare Lavalamps](https://www.youtube.com/watch?v=1cUUfMeOijg)
+- [Die With Me](http://diewithme.online/)
+- [Mojigen & Sujigen](https://www.katsumotoy.com/laboratory/robotype.html)
+- [Guido Segni](https://guidosegni.com/wwworks/)
+- [Hye Yeon Nom](https://vimeo.com/143545182)
+- [Entanglement is a Virtue](https://vimeo.com/156710001)
+- [The Creators](https://vimeo.com/25224777)
+
+
+### Homework
+
+**Assignment**: Project 1 First Draft
+
+
 
 ## Session 6 - 2019-10-03
 
