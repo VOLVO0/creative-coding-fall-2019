@@ -27,12 +27,9 @@ void setup() {
   //   CASCADE_PROFILEFACE
   opencv.loadCascade(OpenCV.CASCADE_FRONTALFACE); 
   
+  // make sure objects is not null
   objects = new Rectangle[0];
-  //objects = opencv.detect();
   
-  // The camera can be initialized directly using an element
-  // from the array returned by list():
-  // cam = new Capture(this, cameras[0]);
   // Or, the settings can be defined based on the text in the list
   cam = new Capture(this, 960, 540, "HD Pro Webcam C920 #2", 30);
 
