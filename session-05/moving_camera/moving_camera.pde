@@ -1,7 +1,6 @@
 import processing.video.*;
 Capture video;
 
-int videoSliceX;
 void setup() {
   size(640, 480);
   video = new Capture(this, 640, 480, "USB Camera #2", 30);

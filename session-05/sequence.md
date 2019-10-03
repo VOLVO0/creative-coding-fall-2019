@@ -3,6 +3,10 @@ Images
 - "Add file to project..."
 - `PImage`
 - `loadImage`
+- `loadPixels`
+- `img.get()`
+-
+
 
 
 ---
