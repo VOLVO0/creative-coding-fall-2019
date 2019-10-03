@@ -13,4 +13,5 @@ void setup() {
 
 void draw() {
   // what about sound.rate?
+  // what kind of data can we get about the sound?
 }
