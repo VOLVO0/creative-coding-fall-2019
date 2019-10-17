@@ -19,7 +19,7 @@ void setup() {
   // server if you want to use it in a sketch.
   // 
   json = loadJSONObject("https://mica-ia1.glitch.me/word-sync");
-  word = json.getString("value");
+  word = json.getString("word");
   
   textSize(100);
   textAlign(CENTER, CENTER);
