@@ -3,9 +3,9 @@ String word;
 
 void setup() {
   size(800, 494);
-  
+
   //
-  // try: 
+  // try:
   //   - https://mica-ia1.glitch.me/word
   //   - https://mica-ia1.glitch.me/word-sync
   //   - https://mica-ia1.glitch.me/word/adjective
@@ -17,14 +17,12 @@ void setup() {
   //
   // visit https://mica-ia1.glitch.me to make a copy of the word
   // server if you want to use it in a sketch.
-  // 
+  //
   json = loadJSONObject("https://mica-ia1.glitch.me/word-sync");
   word = json.getString("value");
-  
+
   textSize(100);
   textAlign(CENTER, CENTER);
-  
-  
 }
 
 void draw() {
