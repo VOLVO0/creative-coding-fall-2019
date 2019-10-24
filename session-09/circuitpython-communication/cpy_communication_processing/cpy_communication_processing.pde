@@ -1,3 +1,4 @@
+// this library should be included in Processing by default 
 import processing.serial.*;
 
 color safety = color(100, 100, 200);
@@ -30,7 +31,7 @@ void draw() {
     // if data was received...
     if (inString != null) {
       // parse input into x, y, z accelerometer data
-      float vals[] = float(split(inString, ' '));   
+      float vals[] = parseAccel(inString);   
       if (vals.length == 3) {
         // println("x: ", vals[0], "\ty:", vals[1], "\tz:", vals[2]);
         // copy temporary values into accel values
@@ -60,4 +61,18 @@ void draw() {
     box(width * 0.2);
     popMatrix();
   }
+}
+
+// 
+float[] parseAccel(String string) {
+  // clean up output from serial port
+  ///  String "(0.2123, 2.1551, -2.332)"
+  // is converted to 
+  //   float array [ 0.2123, 2.1551, -2.332 ] 
+  string = string.
+      replace(",", "").
+      replace("(", "").
+      replace(")", "");
+      
+  return float(split(string, " "));
 }

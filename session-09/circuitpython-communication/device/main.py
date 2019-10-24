@@ -1,9 +1,8 @@
 # pylint: skip-file
-import time
 from adafruit_circuitplayground.express import cpx
 
 history = []
-HISTORY_LENGTH = 25 # try changing from 1 to ?
+HISTORY_LENGTH = 4  # try changing from 1 to ?
 
 def avg(arr, n):
     return sum(element[n] for element in arr) / len(arr)
@@ -19,13 +18,13 @@ def readsmooth():
 
 count = 0
 blink = False
-blue = (0, 0, 10)
-COLOR_CHANGE = False
+blue = (0, 0, 0)
+COLOR_CHANGE = True
 while True:
     count += 1
 
     x, y, z = readsmooth()
-    print("%f %f %f" % (x, y, z))
+    print((x, y, z))  # plotable values
 
     if COLOR_CHANGE:
         if abs(y) > 5:
@@ -41,5 +40,3 @@ while True:
             else:
                 cpx.pixels.fill(blue)
                 blink = True
-
-
