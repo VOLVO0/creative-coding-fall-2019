@@ -1,14 +1,16 @@
 # Circuit Playground digitalio example
 
 import time
-import board
-import digitalio
+from adafruit_circuitplayground.express import cpx
 
-led = digitalio.DigitalInOut(board.D13)
-led.switch_to_output()
-
+blink = True
 while True:
-    led.value = not led.value
+    if blink:
+        cpx.pixels.fill((255, 255, 255))
+        blink = False
+    else:
+        cpx.pixels.fill((0, 0, 0))
+        blink = True
 
     time.sleep(1)
 
