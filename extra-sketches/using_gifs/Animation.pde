@@ -1,4 +1,5 @@
 // Class for animating a sequence of GIFs from 
+// "Animated Sprite (Shifty + Teddy)" by James Paterson
 
 class Animation {
   PImage[] images;
