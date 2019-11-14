@@ -11,6 +11,18 @@ You can find example sketches demonstrating the use of the CircuitPlayground's *
 - CircuitPython guide: https://learn.adafruit.com/welcome-to-circuitpython
 - CircuitPython software download: https://circuitpython.org/board/circuitplayground_express/
 
+## Having trouble?
+
+Make sure [your bootloader (low-level software running on the device) is up to date!](https://learn.adafruit.com/adafruit-circuit-playground-express/updating-the-bootloader) Download the most recent CircuitPlayground Express bootloader [here](https://circuitpython.org/board/circuitplayground_express/).
+
+Still having trouble? There's [an advanced bootloader guide](https://learn.adafruit.com/adafruit-circuit-playground-express/adafruit2-uf2-bootloader-details#updating-the-bootloader-46-33).
+
+Still, still having trouble? Try the troubleshooting guide: https://learn.adafruit.com/adafruit-circuit-playground-express/troubleshooting-2
+
+## Looking for ideas?
+
+Check out the "CircuitPython Playground": https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-playground
+
 ## Alternative methods to program your CircuitPlayground
 
 If CircuitPython isn't working well for you, you can also use [MakeCode for the CircuitPlayground](https://makecode.adafruit.com/), which is a visual programming environment built by Microsoft to make programming microcontrollers simpler. The editor generates a file you can download and install on your CircuitPlayground. The editor also includes a CircuitPlayground simulator, so you can see some of the effects of your code before you download it.
