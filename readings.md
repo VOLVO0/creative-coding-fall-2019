@@ -20,6 +20,7 @@
 - [Allison Parrish](https://www.decontextualize.com/)
 - [Video: Maxime Causeret; Music: Max Cooper](https://vimeo.com/196269431)
 - [Phillip Stearns](https://phillipstearns.wordpress.com/about/)
+- [Wojciech Fangor](http://www.artnet.com/artists/wojciech-fangor/)
 - [School for Poetic Computation (various artists)](https://www.creativeapplications.net/maxmsp/sfpc-spring-2019-student-showcase/)
 
 ### Documentary
